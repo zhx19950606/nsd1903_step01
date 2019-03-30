@@ -153,6 +153,17 @@ IT产品：
    2.查看对方主机名，并将主机名写入到b.txt
    3.查看对方操作系统和版本号
    4.reboot重启
+cp /root/桌面/xxxxx  /opt/step01/preview/
+[root@Rose step01]# ssh-agent 
+SSH_AUTH_SOCK=/tmp/ssh-rOl5cIm3xAuV/agent.17012; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=17013; export SSH_AGENT_PID;
+echo Agent pid 17013;
+[root@Rose step01]# SSH_AUTH_SOCK=/tmp/ssh-rOl5cIm3xAuV/agent.17012; export SSH_AUTH_SOCK;
+[root@Rose step01]# SSH_AGENT_PID=17013; export SSH_AGENT_PID;
+[root@Rose step01]# echo Agent pid 17013;
+Agent pid 17013
+[root@Rose step01]# git push -u origin master
+
 
 
 
